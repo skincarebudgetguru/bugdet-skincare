@@ -1,0 +1,37 @@
+/* Add vibrant background and font colors */
+body {
+    background-color: #f0f8ff; /* Light, calming background */
+    color: #333; /* Dark text for readability */
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #ff8c00; /* Vibrant orange header */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+button {
+    background-color: #ff4500; /* Bright red-orange for buttons */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff6347; /* Slightly lighter color on hover */
+}
+
+/* Add some padding and spacing for better layout */
+section {
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
